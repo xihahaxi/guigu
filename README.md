@@ -3,7 +3,7 @@
 ## 第一周任务
 1. 注册github账号
 2. 在发布的comment中提交自己的git版本截图
-   例如 
+   在cmd中输入 git --version
+   截图
 
 
-![Uploading Snipaste_2025-01-30_22-25-43.png…]()
