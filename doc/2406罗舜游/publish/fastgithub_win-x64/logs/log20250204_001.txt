@@ -1,0 +1,492 @@
+2025-02-04T17:43:50.2362764+08:00 [WRN]
+FastGithub
+程序将自动关闭：系统已运行其它实例
+
+2025-02-04T17:43:54.6459270+08:00 [WRN]
+FastGithub
+程序将自动关闭：系统已运行其它实例
+
+2025-02-04T17:44:56.0486880+08:00 [WRN]
+FastGithub
+程序将自动关闭：系统已运行其它实例
+
+2025-02-04T17:47:06.7694081+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2025-02-04T17:47:06.8505638+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-02-04T17:47:06.8534787+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-02-04T17:47:06.8549628+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-02-04T17:47:06.9256696+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-02-04T17:47:20.8918083+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.108.133, 185.199.111.133]
+
+2025-02-04T17:47:34.7459150+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+xpaywalletcdn.azureedge.net->127.0.0.1
+
+2025-02-04T17:47:35.9626143+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-02-04T17:47:35.9723175+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+storage.live.com->127.0.0.1
+
+2025-02-04T17:47:36.5429609+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://storage.live.com/users/0x9ba2b5490ed6695d/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 502 in 217.5988 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-02-04T17:47:37.1078674+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.73, 13.107.246.69]
+
+2025-02-04T17:47:37.1294736+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://xpaywalletcdn.azureedge.net/mswallet/ExpressCheckout/v1/GetGlobalConfig responded 200 in 1734.7512 ms
+
+2025-02-04T17:47:37.6559250+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-04T17:47:38.7422924+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://storage.live.com/users/0x9ba2b5490ed6695d/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 302 in 2219.8308 ms
+
+2025-02-04T17:47:39.3092370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.21, 40.126.35.129, 40.126.35.150]
+
+2025-02-04T17:47:39.8765716+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.9, 20.143.38.0, 13.104.158.179]
+
+2025-02-04T17:47:39.9333797+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 1928.4907 ms
+
+2025-02-04T17:47:42.7311855+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.9, 20.143.38.0, 40.90.133.102]
+
+2025-02-04T17:47:54.1557028+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 548.6578 ms
+
+2025-02-04T17:47:54.6763631+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 293.1961 ms
+
+2025-02-04T17:47:59.0191085+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 266.3257 ms
+
+2025-02-04T17:48:44.8282188+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.9, 20.143.38.0, 20.143.38.2]
+
+2025-02-04T17:49:37.4881426+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.73, 13.107.246.69, 13.107.246.46]
+
+2025-02-04T17:50:01.2997573+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+storage.live.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-04T17:51:14.9069070+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
+2025-02-04T17:55:43.3674260+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2025-02-04T17:55:43.4445214+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-02-04T17:55:43.4476406+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-02-04T17:55:43.4495485+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-02-04T17:55:43.5105973+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-02-04T17:56:01.4938382+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.73]
+
+2025-02-04T17:56:06.5685029+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.11, 13.104.208.162]
+
+2025-02-04T17:56:07.3155069+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+edge-consumer-static.azureedge.net->127.0.0.1
+
+2025-02-04T17:56:10.0650386+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edge-consumer-static.azureedge.net/mouse-gesture/config.json responded 200 in 2209.433 ms
+
+2025-02-04T17:56:11.4460554+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.86, 40.126.35.81, 40.126.35.20]
+
+2025-02-04T17:56:25.0120663+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.108.133, 185.199.111.133, 185.199.110.133]
+
+2025-02-04T17:56:26.5473382+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-04T17:56:26.6590606+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.73, 13.107.246.42]
+
+2025-02-04T17:56:27.1775014+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.73, 13.107.246.46]
+
+2025-02-04T17:56:27.4289614+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 566.9779 ms
+
+2025-02-04T17:56:27.5373993+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.11, 40.90.130.204, 13.104.208.162]
+
+2025-02-04T17:56:45.9617154+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-02-04T17:56:45.9662894+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-02-04T17:56:45.9693230+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+storage.live.com->127.0.0.1
+
+2025-02-04T17:56:46.5930090+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://storage.live.com/users/0x9ba2b5490ed6695d/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 502 in 217.1516 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-02-04T17:56:46.6691621+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-02-04T17:56:47.0163936+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.145, 40.126.35.19, 40.126.35.134]
+
+2025-02-04T17:56:47.1630666+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/oauth2/authorize responded 200 in 771.036 ms
+
+2025-02-04T17:56:47.1852973+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-02-04T17:56:47.2193082+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+edge-consumer-static.azureedge.net->127.0.0.1
+
+2025-02-04T17:56:47.2362814+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.microsoftonline.com/common/oauth2/authorize responded 200 in 565.0184 ms
+
+2025-02-04T17:56:47.2521072+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.microsoftonline.com->127.0.0.1
+
+2025-02-04T17:56:47.4651767+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://storage.live.com/users/0x9ba2b5490ed6695d/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 302 in 879.5823 ms
+
+2025-02-04T17:56:47.4703715+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-04T17:56:47.6768778+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://storage.live.com/users/0x9ba2b5490ed6695d/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 502 in 208.0872 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-02-04T17:56:47.7064876+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://login.live.com/login.srf responded 502 in 212.5517 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-02-04T17:56:47.7815529+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edge-consumer-static.azureedge.net/mouse-gesture/config.json responded 200 in 535.5183 ms
+
+2025-02-04T17:56:47.9995941+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://storage.live.com/users/0x9ba2b5490ed6695d/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 302 in 324.7549 ms
+
+2025-02-04T17:56:48.2186833+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://login.live.com/login.srf responded 502 in 211.8182 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-02-04T17:56:49.0207727+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.live.com/login.srf responded 200 in 802.4655 ms
+
+2025-02-04T17:56:50.2314938+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.live.com/login.srf responded 200 in 2525.0451 ms
+
+2025-02-04T17:56:51.6338566+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-04T17:56:51.6954507+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-04T17:56:51.7043141+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2025-02-04T17:56:57.3943533+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 502 in 5251.676 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:56:58.1996123+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/favicon.ico responded 502 in 779.7094 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:01.6490503+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.113.4]
+
+2025-02-04T17:57:10.5466533+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-04T17:57:11.3878707+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 502 in 838.7589 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:12.6315394+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/favicon.ico responded 502 in 1212.6757 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:23.9708858+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-04T17:57:24.8245472+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 502 in 850.9058 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:25.6009548+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/favicon.ico responded 502 in 747.0585 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:31.2051196+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-04T17:57:31.7233660+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 502 in 514.9425 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.)
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter , ValueTask`1 , Int32 )
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter , Boolean , Byte[] , Boolean )
+   at FastGithub.Http.HttpClientHandler.ConnectAsync(SocketsHttpConnectionContext context, IPEndPoint ipEndPoint, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String , Int32 , HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage )
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken )
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:32.5169104+08:00 [ERR]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/favicon.ico responded 502 in 758.3979 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 )
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter )
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter , Memory`1 )
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean )
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage , Boolean , Boolean , CancellationToken )
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage , Boolean , CancellationToken )
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-04T17:57:36.3965758+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.11, 40.90.133.112, 40.90.130.204]
+
+2025-02-04T17:58:07.7414374+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[13.105.28.48, 20.135.6.11, 40.90.133.112]
+
+2025-02-04T17:58:11.8716826+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.38, 13.107.246.73, 13.107.246.42]
+
+2025-02-04T17:58:14.4146350+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+edge-consumer-static.azureedge.net->127.0.0.1
+
+2025-02-04T17:58:14.9345931+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edge-consumer-static.azureedge.net/mouse-gesture/config.json responded 200 in 501.084 ms
+
+2025-02-04T17:58:27.9353975+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.73, 13.107.246.46, 13.107.246.42]
+

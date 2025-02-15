@@ -1,0 +1,1808 @@
+2025-02-13T00:23:21.2102431+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2025-02-13T00:23:21.2690689+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-02-13T00:23:21.3199565+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-02-13T00:23:21.3216387+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-02-13T00:23:21.4059241+08:00 [INF]
+FastGithub.AppHostedService
+
+======[ FastGithub 启动完成，当前版本为 V2.1.5 ]======
+
+
+2025-02-13T00:23:22.3208762+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-02-13T00:23:38.1862058+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 15584.0693 ms
+
+2025-02-13T00:23:41.0165149+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T00:23:51.3549550+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 13163.0587 ms
+
+2025-02-13T00:24:06.0973507+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-13T00:54:56.0422916+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T00:54:56.0458676+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T10:02:12.1701024+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[]
+
+2025-02-13T10:02:12.2026988+08:00 [WRN]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 32836037.8618 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-02-13T10:20:21.1240342+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-13T10:20:22.0659714+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T10:20:23.5732668+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.113.25]
+
+2025-02-13T10:20:24.1563993+08:00 [WRN]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 1965.7774 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-02-13T10:20:25.8231361+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T10:20:26.0711747+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 2217.9027 ms
+
+2025-02-13T10:20:26.1612401+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 1086.903 ms
+
+2025-02-13T10:20:26.1882305+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 1128.9458 ms
+
+2025-02-13T10:20:26.3779402+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 2604.097 ms
+
+2025-02-13T13:08:40.5528970+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@114.114.114.114:53->Unable to read data from the transport connection: 你的主机中的软件中止了一个已建立的连接。.
+
+2025-02-13T13:08:40.6162197+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[]
+
+2025-02-13T13:08:40.6322219+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[]
+
+2025-02-13T13:09:01.1872379+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T13:09:03.6987701+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 2488.5949 ms
+
+2025-02-13T13:09:03.7113307+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-13T13:09:08.9712593+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-13T13:09:10.3589527+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 1382.2026 ms
+
+2025-02-13T13:09:14.7519870+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10939.8229 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:09:25.7903286+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10010.1687 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:09:37.8808055+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10006.8358 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:09:42.0533474+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25]
+
+2025-02-13T13:09:43.1195053+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.160.64, 20.190.160.22, 40.126.32.72]
+
+2025-02-13T13:09:43.3452894+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 449.0675 ms
+
+2025-02-13T13:09:46.5938633+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+dc.services.visualstudio.com->127.0.0.1
+
+2025-02-13T13:09:48.6606167+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.108.133, 185.199.109.133]
+
+2025-02-13T13:09:48.8445384+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://dc.services.visualstudio.com/v2/track responded 200 in 2143.6262 ms
+
+2025-02-13T13:09:49.9394730+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.50.88.234]
+
+2025-02-13T13:09:52.2798774+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10003.1298 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:10:11.0288242+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10001.4353 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:10:22.5117956+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 438.1114 ms
+
+2025-02-13T13:10:23.0010906+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 366.6815 ms
+
+2025-02-13T13:10:38.0831803+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10009.3288 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.4) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.4)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.4
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:11:11.9292738+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-13T13:11:21.9498364+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10002.0828 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.3) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.3)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.3
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:11:43.3634380+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.26]
+
+2025-02-13T13:11:44.3723465+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.32.133, 20.190.160.64, 20.190.160.22]
+
+2025-02-13T13:11:49.2428019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.50.88.234, 20.50.88.241]
+
+2025-02-13T13:12:39.8804871+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 10012.5466 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (140.82.121.3) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (140.82.121.3)
+ ---> FastGithub.Http.HttpConnectTimeoutException: 140.82.121.3
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:13:43.3572256+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166]
+
+2025-02-13T13:13:44.5824782+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.26, 140.82.113.25]
+
+2025-02-13T13:13:54.6971852+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:13:55.0744609+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.50.88.234, 20.50.88.241]
+
+2025-02-13T13:13:56.6810940+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.86, 40.126.35.128, 40.126.35.129]
+
+2025-02-13T13:14:01.6887609+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.50.88.234]
+
+2025-02-13T13:14:43.1005487+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.25, 140.82.113.25]
+
+2025-02-13T13:14:46.3651854+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.111.133, 185.199.108.133]
+
+2025-02-13T13:14:48.4727767+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 115.5719 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.)
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean, Byte[], CancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectAsync(SocketsHttpConnectionContext context, IPEndPoint ipEndPoint, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:16:37.2871093+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.164, 40.126.16.164]
+
+2025-02-13T13:16:43.7109773+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25, 140.82.114.25]
+
+2025-02-13T13:16:50.2966472+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.50.88.241]
+
+2025-02-13T13:17:09.8117020+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.160, 20.190.148.162, 20.190.144.161]
+
+2025-02-13T13:17:35.8009976+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.213.196.214]
+
+2025-02-13T13:18:47.1394648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.25, 140.82.114.26]
+
+2025-02-13T13:18:55.5149911+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.213.196.212]
+
+2025-02-13T13:18:58.1564014+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.160, 40.126.35.18, 40.126.35.19]
+
+2025-02-13T13:19:02.6440399+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.37.198.118]
+
+2025-02-13T13:19:14.7103801+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-13T13:19:14.8465828+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 502 in 119.2732 ms
+System.Net.Http.HttpRequestException: 找不到任何可成功连接的IP (Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.) (github.com:443)
+ ---> System.AggregateException: 找不到任何可成功连接的IP (Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.)
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean, Byte[], CancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectAsync(SocketsHttpConnectionContext context, IPEndPoint ipEndPoint, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at FastGithub.Http.HttpClientHandler.ConnectCallback(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String, Int32, HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionAsync(Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:19:42.9509029+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:19:52.6010504+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.108.133]
+
+2025-02-13T13:19:54.1743111+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-13T13:20:26.2801949+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:20:45.9290701+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.25, 140.82.112.26]
+
+2025-02-13T13:21:31.2629481+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.25, 140.82.113.26]
+
+2025-02-13T13:21:40.0083400+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 40.126.35.20, 40.126.35.134]
+
+2025-02-13T13:22:36.0352212+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.213.196.212]
+
+2025-02-13T13:24:11.1041443+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.213.196.212]
+
+2025-02-13T13:24:39.7835610+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+mrodevicemgr.officeapps.live.com->127.0.0.1
+
+2025-02-13T13:24:40.5305376+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-13T13:24:41.1838691+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 618.1481 ms
+
+2025-02-13T13:24:48.4447577+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:24:48.7600116+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v1/SDXReleaseDataPackages responded 202 in 8792.9619 ms
+
+2025-02-13T13:24:50.7051880+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.89.117]
+
+2025-02-13T13:24:51.1595636+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.112.26, 140.82.112.25]
+
+2025-02-13T13:24:53.3410941+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.109.133, 185.199.110.133]
+
+2025-02-13T13:24:54.7039721+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T13:25:49.4055257+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.112.25, 140.82.112.26]
+
+2025-02-13T13:26:40.4036332+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.151, 40.126.35.145, 40.126.35.134]
+
+2025-02-13T13:27:36.4196660+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.213.196.214]
+
+2025-02-13T13:28:27.9916910+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-13T13:28:28.6766867+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 200 in 669.2187 ms
+
+2025-02-13T13:28:29.1141633+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://github.com/_alive responded 200 in 431.99 ms
+
+2025-02-13T13:28:29.1177938+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T13:29:12.3096038+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.50.88.242]
+
+2025-02-13T13:29:51.5508496+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.111.133]
+
+2025-02-13T13:29:51.8550163+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.112.26, 140.82.112.25]
+
+2025-02-13T13:30:00.9423630+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2025-02-13T13:30:14.5035265+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:30:32.4304366+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-13T13:30:39.8550331+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 7393.2452 ms
+
+2025-02-13T13:30:44.6861653+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2025-02-13T13:30:44.7881176+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2025-02-13T13:30:45.0815007+08:00 [WRN]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://collector.github.com/github/collect responded 502 in 204.3708 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-02-13T13:30:45.9734299+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 136835.4465 ms
+
+2025-02-13T13:30:46.2362342+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.114.22]
+
+2025-02-13T13:30:46.4170653+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1336.3466 ms
+
+2025-02-13T13:30:47.0655976+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 2338.28 ms
+
+2025-02-13T13:30:47.0677675+08:00 [WRN]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+OPTIONS https://collector.github.com/github/collect responded 502 in 209.0338 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-02-13T13:30:47.3501647+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 282.9042 ms
+
+2025-02-13T13:30:48.9940069+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 3195.3318 ms
+
+2025-02-13T13:30:49.7050697+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.112.22, 140.82.114.22]
+
+2025-02-13T13:30:50.1453003+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.112.25, 140.82.114.25]
+
+2025-02-13T13:30:50.1459099+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 2406.5926 ms
+
+2025-02-13T13:31:10.2458051+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.113.21, 140.82.112.22]
+
+2025-02-13T13:31:39.4612933+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.25, 140.82.113.26]
+
+2025-02-13T13:31:42.0208210+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.19, 40.126.35.129, 20.190.148.162]
+
+2025-02-13T13:32:02.5935412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.113.21]
+
+2025-02-13T13:32:10.2442176+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 20.190.148.162, 40.126.35.64]
+
+2025-02-13T13:32:11.4272601+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 40.126.35.64, 40.126.35.144]
+
+2025-02-13T13:33:31.8864134+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.50.88.234]
+
+2025-02-13T13:34:20.2579498+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.213.196.214, 20.37.198.118]
+
+2025-02-13T13:34:52.4460426+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.111.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-13T13:34:52.8211216+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.26, 140.82.114.26]
+
+2025-02-13T13:34:56.5598541+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2025-02-13T13:35:46.9437880+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.112.22]
+
+2025-02-13T13:35:50.9248075+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.112.25, 140.82.113.26]
+
+2025-02-13T13:36:13.1491456+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.22, 140.82.112.21]
+
+2025-02-13T13:36:41.0531071+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 20.190.144.136, 20.190.148.163]
+
+2025-02-13T13:37:04.4379439+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.22]
+
+2025-02-13T13:37:11.9406989+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 20.190.144.136, 20.190.148.162]
+
+2025-02-13T13:37:18.7375592+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 40.126.35.84, 40.126.35.150]
+
+2025-02-13T13:37:44.8724234+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.213.196.212]
+
+2025-02-13T13:39:05.4761225+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.84, 40.126.35.150, 20.190.144.136]
+
+2025-02-13T13:39:21.2272318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.50.88.242]
+
+2025-02-13T13:39:31.8942415+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.21, 140.82.112.21]
+
+2025-02-13T13:39:53.7654151+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.26, 140.82.113.25]
+
+2025-02-13T13:40:05.7768079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T13:40:51.5984359+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.21, 140.82.113.21]
+
+2025-02-13T13:41:18.5767766+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.21]
+
+2025-02-13T13:41:40.0737888+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.25, 140.82.113.26]
+
+2025-02-13T13:41:41.3794775+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.84, 40.126.35.150, 20.190.148.162]
+
+2025-02-13T13:41:53.1790946+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:41:55.0789021+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.26, 140.82.113.25]
+
+2025-02-13T13:42:12.4117476+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.84, 40.126.35.150, 20.190.148.163]
+
+2025-02-13T13:42:20.0197409+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.84, 40.126.35.128]
+
+2025-02-13T13:44:21.5871846+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.213.196.212]
+
+2025-02-13T13:44:32.5634614+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.113.21, 140.82.114.22]
+
+2025-02-13T13:44:56.1320094+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2025-02-13T13:44:56.3892474+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.25, 140.82.114.26]
+
+2025-02-13T13:45:06.8326638+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.111.133]
+
+2025-02-13T13:46:53.9910022+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.84, 40.126.35.145]
+
+2025-02-13T13:46:56.2792070+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.25, 140.82.112.25]
+
+2025-02-13T13:47:10.9972518+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.113.21]
+
+2025-02-13T13:47:27.2535099+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:47:29.1919540+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.145, 40.126.35.87, 40.126.35.144]
+
+2025-02-13T13:49:09.1165939+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.213.196.214]
+
+2025-02-13T13:49:37.3412608+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.50.88.241]
+
+2025-02-13T13:49:37.5963875+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.113.22, 140.82.112.21]
+
+2025-02-13T13:50:01.9228915+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2025-02-13T13:50:02.4835212+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.26, 140.82.113.25]
+
+2025-02-13T13:50:52.3065820+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 1202476.0493 ms
+
+2025-02-13T13:50:52.4669416+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T13:50:53.4282298+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 943.7388 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:50:55.3270591+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 790.4027 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:50:58.2757656+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 834.35 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:51:03.3909957+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 872.2904 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T13:51:05.6084807+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.113.22]
+
+2025-02-13T13:51:17.6354974+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 5912.0635 ms
+
+2025-02-13T13:51:54.3537903+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.145, 40.126.35.144, 40.126.35.87]
+
+2025-02-13T13:51:57.3152186+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.26, 140.82.113.26]
+
+2025-02-13T13:52:11.7569558+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.114.22]
+
+2025-02-13T13:52:15.5132703+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.144, 20.190.163.18, 40.126.35.80]
+
+2025-02-13T13:52:29.7653984+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.151, 40.126.35.144]
+
+2025-02-13T13:52:55.7410873+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.145, 40.126.35.134, 40.126.35.151]
+
+2025-02-13T13:53:50.6463173+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:53:50.8723130+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.50.88.242]
+
+2025-02-13T13:54:09.8048090+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.213.196.212]
+
+2025-02-13T13:54:23.0290038+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.37.198.118]
+
+2025-02-13T13:54:38.6489341+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.22, 140.82.113.21]
+
+2025-02-13T13:55:05.6568182+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.26, 140.82.112.26]
+
+2025-02-13T13:55:09.5771411+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-13T13:55:49.1714985+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.113.22, 140.82.112.21]
+
+2025-02-13T13:55:59.4643168+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.26, 140.82.113.26]
+
+2025-02-13T13:56:05.9913083+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.114.21]
+
+2025-02-13T13:56:35.5472075+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.114.21, 140.82.113.21]
+
+2025-02-13T13:56:49.1998308+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.26, 140.82.114.25]
+
+2025-02-13T13:56:56.8321946+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.151, 40.126.35.128]
+
+2025-02-13T13:57:01.3216749+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.114.25, 140.82.112.26]
+
+2025-02-13T13:57:20.9681869+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.113.21, 140.82.112.22]
+
+2025-02-13T13:57:25.4415151+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.151, 40.126.35.19]
+
+2025-02-13T13:57:46.0615384+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2025-02-13T13:57:54.7600735+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.21, 20.190.148.163, 20.190.144.136]
+
+2025-02-13T13:58:16.1853699+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.50.88.234]
+
+2025-02-13T13:58:24.8794211+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.148.163, 20.190.144.136, 20.190.144.161]
+
+2025-02-13T13:59:39.1416343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.114.21, 140.82.112.22]
+
+2025-02-13T14:00:04.7779291+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2025-02-13T14:00:05.2943815+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.50.88.242]
+
+2025-02-13T14:00:06.4473994+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.111.133]
+
+2025-02-13T14:00:06.7647783+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.25, 140.82.112.25, 140.82.112.26]
+
+2025-02-13T14:00:10.9822536+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T14:00:50.5457927+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22, 140.82.112.21]
+
+2025-02-13T14:01:00.1799828+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.25, 140.82.112.25]
+
+2025-02-13T14:01:06.4841710+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.114.21, 140.82.112.21]
+
+2025-02-13T14:01:51.1805271+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2025-02-13T14:01:51.5771193+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.26, 140.82.114.25]
+
+2025-02-13T14:01:53.3766922+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.163, 20.190.144.136]
+
+2025-02-13T14:01:56.9101249+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.161, 20.190.148.163, 40.126.35.18]
+
+2025-02-13T14:02:02.5493253+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.114.26, 140.82.113.26]
+
+2025-02-13T14:02:22.1221094+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.113.22, 140.82.114.21]
+
+2025-02-13T14:02:25.9349276+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 40.126.35.20, 40.126.35.81]
+
+2025-02-13T14:02:55.4310001+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 40.126.35.20, 40.126.35.134]
+
+2025-02-13T14:03:08.1891963+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.50.88.233]
+
+2025-02-13T14:03:17.2974939+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.213.196.212]
+
+2025-02-13T14:03:27.6050763+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 40.126.35.87, 40.126.35.20]
+
+2025-02-13T14:04:10.4819033+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.25, 140.82.112.26, 140.82.114.26]
+
+2025-02-13T14:04:24.9295676+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.37.198.118]
+
+2025-02-13T14:05:07.8802925+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-13T14:06:07.0652268+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.114.21, 140.82.112.22]
+
+2025-02-13T14:06:37.4758896+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.113.22, 140.82.114.21]
+
+2025-02-13T14:06:52.6599648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.113.25, 140.82.112.26]
+
+2025-02-13T14:06:57.3662056+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.145, 40.126.35.129, 40.126.35.144]
+
+2025-02-13T14:07:03.7243003+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.113.25, 140.82.114.26]
+
+2025-02-13T14:07:10.6466492+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.9.155.152]
+
+2025-02-13T14:07:23.4032479+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.112.22]
+
+2025-02-13T14:07:26.9123762+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.145, 40.126.35.144, 40.126.35.87]
+
+2025-02-13T14:07:55.2568936+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T14:08:27.8730513+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.145, 40.126.35.144, 40.126.35.18]
+
+2025-02-13T14:08:46.8357246+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.89.117, 52.109.6.4]
+
+2025-02-13T14:09:13.0183129+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.26, 140.82.113.25]
+
+2025-02-13T14:09:16.2215792+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.9.155.152, 20.37.198.118]
+
+2025-02-13T14:09:25.4062094+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.9.155.152]
+
+2025-02-13T14:09:38.9175184+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.26.156.215]
+
+2025-02-13T14:09:44.5063284+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.21, 140.82.112.22]
+
+2025-02-13T14:10:08.4433773+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T14:10:08.7101031+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.26, 140.82.114.26]
+
+2025-02-13T14:10:52.9273742+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.114.21, 140.82.112.21]
+
+2025-02-13T14:11:01.9414732+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.112.26, 140.82.113.26]
+
+2025-02-13T14:11:38.8925695+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.113.21, 140.82.114.21]
+
+2025-02-13T14:11:40.5512314+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 20.26.156.215]
+
+2025-02-13T14:11:59.2269230+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.150, 40.126.35.86, 40.126.35.84]
+
+2025-02-13T14:12:27.6703509+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.20, 40.126.35.84, 40.126.35.150]
+
+2025-02-13T14:12:49.0076933+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.0.136, 52.109.89.117]
+
+2025-02-13T14:12:58.3474238+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.129, 40.126.35.20, 40.126.35.84]
+
+2025-02-13T14:13:28.9338652+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 40.126.35.129, 40.126.35.20]
+
+2025-02-13T14:15:09.5949760+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2025-02-13T14:15:09.8762206+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.113.26, 140.82.112.25]
+
+2025-02-13T14:15:17.7359541+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.108.133, 185.199.111.133]
+
+2025-02-13T14:15:55.1403617+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.113.22]
+
+2025-02-13T14:16:10.1549437+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.114.21, 140.82.112.22]
+
+2025-02-13T14:16:36.5567385+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 1503653.1848 ms
+
+2025-02-13T14:16:36.6889382+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T14:16:37.4687446+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 762.6156 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:16:39.4163981+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 840.5579 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:16:42.3295533+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 752.6629 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:16:47.4674943+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 818.0779 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:16:54.0729977+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.26, 140.82.112.25, 140.82.113.25]
+
+2025-02-13T14:16:57.0430812+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 777.6353 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:17:14.3988882+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 899.7014 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:17:21.2706446+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T14:17:21.5538200+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.9.155.152, 20.213.196.212]
+
+2025-02-13T14:17:25.1772711+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.114.21]
+
+2025-02-13T14:17:27.8048871+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 40.126.35.129, 40.126.35.151]
+
+2025-02-13T14:17:47.5917924+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 924.9467 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:17:59.3283326+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 40.126.35.151, 40.126.35.20]
+
+2025-02-13T14:18:02.0866337+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 40.126.35.20, 40.126.35.84]
+
+2025-02-13T14:18:29.1954530+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.20, 40.126.35.87, 40.126.35.84]
+
+2025-02-13T14:18:57.0342804+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.21, 40.126.35.20]
+
+2025-02-13T14:18:57.6099238+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 502 in 809.3406 ms
+System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage, Boolean, Boolean, CancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage, Boolean, CancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2025-02-13T14:19:09.5489831+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.9.155.153]
+
+2025-02-13T14:19:18.2469294+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.214, 20.213.196.212]
+
+2025-02-13T14:19:27.2330908+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.213.196.212, 20.9.155.153]
+
+2025-02-13T14:19:45.3086387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.112.22]
+
+2025-02-13T14:20:15.3987910+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Invalid response received with code ServerFailure
+
+2025-02-13T14:20:17.1773029+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.108.133]
+
+2025-02-13T14:20:19.7331373+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.111.133]
+
+2025-02-13T14:20:23.2112658+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.9.155.152, 20.213.196.214, 20.213.196.212]
+
+2025-02-13T14:20:58.7579416+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.112.21, 140.82.113.21]
+
+2025-02-13T14:21:04.3218515+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.112.26, 140.82.113.25]
+
+2025-02-13T14:21:16.1611383+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 2321.4394 ms
+
+2025-02-13T14:21:16.1658412+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-13T14:21:16.8556472+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 200 in 674.0747 ms
+
+2025-02-13T14:21:17.2406911+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://github.com/_alive responded 200 in 380.7683 ms
+
+2025-02-13T14:21:39.0289360+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 20.27.177.113, 140.82.116.3]
+
+2025-02-13T14:21:40.8192218+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.113.21, 140.82.112.21]
+
+2025-02-13T14:22:28.1806692+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.21, 40.126.35.87]
+
+2025-02-13T14:22:56.2468123+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.21, 40.126.35.18]
+
+2025-02-13T14:23:02.2791832+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.151, 40.126.35.21]
+
+2025-02-13T14:23:41.2935521+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.3]
+
+2025-02-13T14:23:46.0768811+08:00 [WRN]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 148830.9818 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-02-13T15:12:01.7549997+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-02-13T15:12:04.2297113+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/196403364/ws responded 101 in 2417.7108 ms
+
+2025-02-13T15:12:04.2352401+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-02-13T15:12:05.0045622+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://github.com/_alive responded 200 in 744.2389 ms
+
+2025-02-13T15:12:05.4461157+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.3, 20.205.243.166]
+
+2025-02-13T15:12:05.5650220+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://github.com/_alive responded 200 in 555.7689 ms
+
+2025-02-13T15:12:12.3840034+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.12.13]
+
+2025-02-13T15:12:13.2863951+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.111.133]
+
+2025-02-13T15:12:14.5060274+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.25]
+
+2025-02-13T15:12:15.5659351+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.114.21]
+
+2025-02-13T15:12:17.6894940+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212]
+
+2025-02-13T15:12:18.8528334+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.20, 40.126.35.134, 40.126.35.145]
+
+2025-02-13T15:12:21.8855610+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.113.22, 140.82.114.21]
+
+2025-02-13T15:12:23.3473665+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.25, 140.82.113.25]
+
+2025-02-13T15:12:45.0701387+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.112.26, 140.82.114.25]
+
+2025-02-13T15:13:48.1879578+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.26, 140.82.112.26]
+
+2025-02-13T15:13:53.1851007+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.22]
+
+2025-02-13T15:14:03.6113528+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.116.4, 140.82.116.3, 20.205.243.166]
+
+2025-02-13T15:14:11.3208527+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.89.117, 52.109.12.13]
+
+2025-02-13T15:14:25.2692971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.50.88.245]
+
+2025-02-13T15:14:41.8291321+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.89.117, 52.109.8.88]
+
+2025-02-13T15:15:15.2268996+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.213.196.212, 20.213.196.214]
+
+2025-02-13T15:17:06.7636238+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.3, 140.82.116.4]
+
+2025-02-13T15:17:13.5480132+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-02-13T15:17:15.0264162+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.112.26, 140.82.113.26]
+
+2025-02-13T15:17:16.2983347+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.22, 140.82.114.21, 140.82.112.22]
+
+2025-02-13T15:17:18.5377101+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.37.198.118, 20.9.155.153]
+
+2025-02-13T15:17:19.8148103+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.20, 40.126.35.151]
+
+2025-02-13T15:17:23.2718386+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.113.22, 140.82.114.21]
+
+2025-02-13T15:18:53.5564915+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.22]
+
+2025-02-13T15:18:54.7981079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.20, 40.126.35.144]
+
+2025-02-13T15:19:04.1844948+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.4, 140.82.116.3]
+
+2025-02-13T15:20:15.7558253+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.37.198.118, 20.9.155.153, 20.213.196.212]
+
+2025-02-13T15:22:09.1206170+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.116.4, 140.82.114.3]
+
+2025-02-13T15:22:13.7684580+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.111.133]
+
+2025-02-13T15:22:15.4389421+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.112.26, 140.82.113.25]
+
+2025-02-13T15:22:17.0773451+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.112.21, 140.82.113.21]
+
+2025-02-13T15:22:18.9655405+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.9.155.153, 20.213.196.214, 20.50.88.238]
+
+2025-02-13T15:22:20.3405926+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.145, 40.126.35.20]
+
+2025-02-13T15:22:23.8074079+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.21, 140.82.112.22, 140.82.113.21]
+
+2025-02-13T15:22:47.1135883+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25, 140.82.112.26]
+
+2025-02-13T15:23:02.1684428+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@8.8.8.8:53->Invalid response received with code ServerFailure
+
+2025-02-13T15:23:13.9873745+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.120.46, 52.109.0.138, 52.109.89.117]
+
+2025-02-13T15:23:22.3072331+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.134, 40.126.35.144, 40.126.35.151]
+
+2025-02-13T15:23:30.0309624+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.9.155.153, 20.213.196.214, 20.50.88.245]
+
+2025-02-13T15:23:49.8574934+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.25, 140.82.112.25, 140.82.112.26]
+
+2025-02-13T15:24:27.4438211+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.9.155.153, 20.213.196.214, 20.50.88.234]
+
+2025-02-13T15:25:03.4425804+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.114.3, 140.82.116.3]
+
+2025-02-13T15:25:19.6771662+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.214, 20.9.155.153, 20.50.88.234]
+
+2025-02-13T15:25:24.3042287+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22, 140.82.113.21, 140.82.114.22]
+
+2025-02-13T15:25:25.5654225+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.22, 140.82.112.22, 140.82.113.21]
+
