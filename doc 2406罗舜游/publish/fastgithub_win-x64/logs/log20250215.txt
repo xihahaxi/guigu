@@ -1,0 +1,471 @@
+2025-02-15T08:10:10.6471454+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dc.services.visualstudio.com@114.114.114.114:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-02-15T08:10:10.6511764+08:00 [ERR]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/connect responded 101 in 35059417.7827 ms
+System.IO.IOException: Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+ ---> System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1, CancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16)
+   at System.Net.Http.HttpConnection.ReadAsync(Memory`1)
+   at System.Net.Http.HttpConnection.RawConnectionStream.ReadAsync(Memory`1, CancellationToken)
+   at Yarp.ReverseProxy.Forwarder.StreamCopier.CopyAsync(Stream input, Stream output, Int64 promisedContentLength, StreamCopierTelemetry telemetry, ActivityCancellationTokenSource activityToken, CancellationToken cancellation)
+
+2025-02-15T08:10:10.6533035+08:00 [WRN]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 502 in 31657884.1583 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-02-15T08:10:10.6922323+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[]
+
+2025-02-15T08:10:10.7057388+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[]
+
+2025-02-15T08:10:10.7109535+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+odc.officeapps.live.com:443->[]
+
+2025-02-15T08:10:10.7157235+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[]
+
+2025-02-15T08:10:10.7195007+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+ocws.officeapps.live.com:443->[]
+
+2025-02-15T08:10:10.7234318+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[]
+
+2025-02-15T08:10:10.7280890+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[]
+
+2025-02-15T08:10:11.7405235+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[]
+
+2025-02-15T08:10:11.7428915+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+usc-collabrtc.officeapps.live.com:443->[]
+
+2025-02-15T08:10:11.7453728+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+pjp1-collabhubrtc.officeapps.live.com:443->[]
+
+2025-02-15T08:10:11.7477988+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[]
+
+2025-02-15T08:10:11.7498315+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[]
+
+2025-02-15T08:10:11.7519352+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[]
+
+2025-02-15T08:10:11.7538175+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[]
+
+2025-02-15T08:10:11.7556522+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+g.live.com:443->[]
+
+2025-02-15T08:10:11.7574373+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[]
+
+2025-02-15T08:10:11.7596099+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[]
+
+2025-02-15T08:10:11.7615554+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[]
+
+2025-02-15T08:10:11.7633212+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[]
+
+2025-02-15T08:10:11.7651088+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[]
+
+2025-02-15T08:10:11.7670784+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+hubble.officeapps.live.com:443->[]
+
+2025-02-15T08:10:11.7686700+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[]
+
+2025-02-15T08:10:11.7709068+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+js.monitor.azure.com:443->[]
+
+2025-02-15T08:10:11.7729131+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[]
+
+2025-02-15T08:10:11.7747019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[]
+
+2025-02-15T08:10:11.7764792+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[]
+
+2025-02-15T08:10:11.7784125+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-mobile-static.azureedge.net:443->[]
+
+2025-02-15T08:10:11.7803542+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[]
+
+2025-02-15T08:10:11.7822971+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[]
+
+2025-02-15T08:10:11.7842134+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+roaming.officeapps.live.com:443->[]
+
+2025-02-15T08:10:11.7860489+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[]
+
+2025-02-15T08:10:20.7701094+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+pjp1-collabhubrtc.officeapps.live.com->127.0.0.1
+
+2025-02-15T08:10:21.1240023+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 345.9718 ms
+
+2025-02-15T08:10:21.9703808+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-02-15T08:10:23.0851556+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 1076.0505 ms
+
+2025-02-15T08:10:23.2742475+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 138.1946 ms
+
+2025-02-15T08:10:23.5546799+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 310.3244 ms
+
+2025-02-15T08:10:23.9351218+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 287.1666 ms
+
+2025-02-15T08:10:25.4247765+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 128.0645 ms
+
+2025-02-15T08:10:27.5588071+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 120.0198 ms
+
+2025-02-15T08:10:29.7054682+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 119.4114 ms
+
+2025-02-15T08:10:31.8447295+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 119.9262 ms
+
+2025-02-15T08:10:33.9974652+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 129.3136 ms
+
+2025-02-15T08:10:36.1518334+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 133.2996 ms
+
+2025-02-15T08:10:38.2841655+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 120.716 ms
+
+2025-02-15T08:10:40.4249279+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 121.8204 ms
+
+2025-02-15T08:10:42.5554404+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 111.0644 ms
+
+2025-02-15T08:10:44.6752743+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 108.2468 ms
+
+2025-02-15T08:10:46.8019234+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 108.6485 ms
+
+2025-02-15T08:10:48.9236610+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 108.2564 ms
+
+2025-02-15T08:10:51.0477873+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 109.1128 ms
+
+2025-02-15T08:10:53.1815982+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 109.8842 ms
+
+2025-02-15T08:10:55.3139596+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 109.5785 ms
+
+2025-02-15T08:10:57.4357150+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 107.8194 ms
+
+2025-02-15T08:10:59.5657555+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 107.2586 ms
+
+2025-02-15T08:11:01.6889256+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 109.7076 ms
+
+2025-02-15T08:11:03.8186716+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 109.9265 ms
+
+2025-02-15T08:11:05.9542554+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 114.8212 ms
+
+2025-02-15T08:11:08.0870898+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 108.8023 ms
+
+2025-02-15T08:11:10.2153576+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 117.0469 ms
+
+2025-02-15T08:11:11.4692351+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.50.88.238]
+
+2025-02-15T08:11:12.3675689+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 127.7566 ms
+
+2025-02-15T08:11:13.0120654+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.31.2, 20.190.159.4, 40.126.31.69]
+
+2025-02-15T08:11:13.6616918+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+g.live.com:443->[20.22.207.36]
+
+2025-02-15T08:11:14.3416604+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+ocws.officeapps.live.com:443->[52.111.209.27]
+
+2025-02-15T08:11:14.5201680+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 128.2695 ms
+
+2025-02-15T08:11:14.9231391+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.44]
+
+2025-02-15T08:11:15.7105638+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+odc.officeapps.live.com:443->[52.109.16.52]
+
+2025-02-15T08:11:16.6403679+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 106.8307 ms
+
+2025-02-15T08:11:18.7989275+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 137.985 ms
+
+2025-02-15T08:11:20.4218982+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+pjp1-collabhubrtc.officeapps.live.com:443->[52.108.46.20]
+
+2025-02-15T08:11:20.9613962+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 429 in 139.4158 ms
+
+2025-02-15T08:11:21.1268555+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+docs.github.com:443->[185.199.109.154, 185.199.110.154, 185.199.111.154]
+
+2025-02-15T08:11:21.9606215+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.112.22]
+
+2025-02-15T08:11:22.4039451+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[20.190.166.66, 20.190.166.133, 40.126.38.21]
+
+2025-02-15T08:11:23.0258453+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[140.82.113.5]
+
+2025-02-15T08:11:23.1002942+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 122.7535 ms
+
+2025-02-15T08:11:25.2415727+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/reconnect responded 409 in 121.2505 ms
+
+2025-02-15T08:11:25.2493443+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+pjp1-collabhubrtc.officeapps.live.com->127.0.0.1
+
+2025-02-15T08:11:25.2511451+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+usc-collabrtc.officeapps.live.com->127.0.0.1
+
+2025-02-15T08:11:25.3695550+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/abort responded 200 in 110.3159 ms
+
+2025-02-15T08:11:27.7215737+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+mrodevicemgr.officeapps.live.com:443->[52.109.6.4]
+
+2025-02-15T08:11:28.4023372+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+hubble.officeapps.live.com:443->[52.109.0.183]
+
+2025-02-15T08:11:28.9744324+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-mobile-static.azureedge.net:443->[13.107.246.73]
+
+2025-02-15T08:11:29.7123025+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.25]
+
+2025-02-15T08:11:30.3981920+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[140.82.113.4]
+
+2025-02-15T08:11:31.0234536+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://usc-collabrtc.officeapps.live.com/rtc2/FindSession responded 200 in 5764.2174 ms
+
+2025-02-15T08:11:31.1598602+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/negotiate responded 200 in 125.9886 ms
+
+2025-02-15T08:11:31.6215774+08:00 [INF]
+FastGithub.HttpServer.HttpMiddlewares.RequestLoggingMiddleware
+GET https://pjp1-collabhubrtc.officeapps.live.com/rtc2/signalr/signalr/start responded 200 in 326.1531 ms
+
+2025-02-15T08:11:31.7531105+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+private-user-images.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-15T08:11:32.2198040+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-cloud-resource-static.azureedge.net:443->[13.107.246.77]
+
+2025-02-15T08:11:32.7661051+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.41]
+
+2025-02-15T08:11:33.2236778+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.44]
+
+2025-02-15T08:11:33.5920336+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.246.73]
+
+2025-02-15T08:11:34.0506736+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-15T08:11:35.3478330+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-15T08:11:35.6341273+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:22->[140.82.113.4]
+
+2025-02-15T08:11:35.8273277+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-15T08:11:36.1558790+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+user-images.githubusercontent.com:443->[185.199.109.133, 185.199.110.133, 185.199.108.133]
+
+2025-02-15T08:11:36.5984252+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[13.107.42.18]
+
+2025-02-15T08:11:37.0406098+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.109.154, 185.199.110.154, 185.199.111.154]
+
+2025-02-15T08:11:37.7589561+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+roaming.officeapps.live.com:443->[52.109.76.243]
+
+2025-02-15T08:11:37.8300816+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+usc-collabrtc.officeapps.live.com:443->[13.107.6.171]
+
+2025-02-15T08:11:42.3822569+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+js.monitor.azure.com:443->[13.107.253.71]
+
+2025-02-15T08:11:43.0005198+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.50.88.241, 20.50.88.238]
+
+2025-02-15T08:12:13.7369912+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.152.20, 20.190.152.19, 40.126.31.2]
+
+2025-02-15T08:12:30.1561257+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-mobile-static.azureedge.net:443->[13.107.246.60, 13.107.246.73]
+
+2025-02-15T08:12:33.5021993+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.41, 13.107.246.76]
+
+2025-02-15T08:13:14.5607252+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+g.live.com:443->[52.231.186.36, 20.22.207.36]
+
+2025-02-15T08:13:15.4269746+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+ocws.officeapps.live.com:443->[52.111.209.27, 52.109.68.2]
+
+2025-02-15T08:13:16.2146919+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn.azureedge.net:443->[13.107.246.44, 13.107.246.48]
+
+2025-02-15T08:13:23.4918321+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.22]
+

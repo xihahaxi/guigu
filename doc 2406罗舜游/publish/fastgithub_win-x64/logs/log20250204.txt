@@ -1,0 +1,36 @@
+2025-02-04T17:43:30.4143920+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2025-02-04T17:43:30.4691140+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-02-04T17:43:30.4715702+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-02-04T17:43:30.4727821+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-02-04T17:43:30.5318994+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-02-04T17:43:36.6924677+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-02-04T17:43:51.6093040+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md responded 200 in 14520.3815 ms
+
+2025-02-04T17:43:55.6017923+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2025-02-04T17:44:06.0269950+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md.minisig responded 200 in 14412.5293 ms
+
